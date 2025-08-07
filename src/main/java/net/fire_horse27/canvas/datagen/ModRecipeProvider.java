@@ -1,4 +1,4 @@
-package net.fire_horse27.template.datagen;
+package net.fire_horse27.canvas.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;

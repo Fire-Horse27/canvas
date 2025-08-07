@@ -1,6 +1,6 @@
-package net.fire_horse27.template.block;
+package net.fire_horse27.canvas.block;
 
-import net.fire_horse27.template.Template;
+import net.fire_horse27.canvas.Canvas;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -25,10 +25,10 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        Template.LOGGER.debug("Registering ModBlocks for " + Template.MOD_ID);
+        Canvas.LOGGER.debug("Registering ModBlocks for " + Canvas.MOD_ID);
     }
 
     private static Identifier id(String path) {
-        return Identifier.of(Template.MOD_ID, path);
+        return Identifier.of(Canvas.MOD_ID, path);
     }
 }

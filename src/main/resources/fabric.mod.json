@@ -18,13 +18,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fire_horse27.template.Template"
+			"net.fire_horse27.canvas.Canvas"
 		],
 		"fabric-datagen": [
-			"net.fire_horse27.template.TemplateDataGenerator"
+			"net.fire_horse27.canvas.CanvasDataGenerator"
 		],
 		"client": [
-			"net.fire_horse27.template.TemplateClient"
+			"net.fire_horse27.canvas.CanvasClient"
 		]
 	},
 

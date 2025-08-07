@@ -1,10 +1,10 @@
-package net.fire_horse27.template;
+package net.fire_horse27.canvas;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.fire_horse27.template.datagen.*;
+import net.fire_horse27.canvas.datagen.*;
 
-public class TemplateDataGenerator implements DataGeneratorEntrypoint {
+public class CanvasDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
