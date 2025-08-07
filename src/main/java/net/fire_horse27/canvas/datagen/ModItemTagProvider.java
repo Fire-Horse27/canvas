@@ -2,6 +2,8 @@ package net.fire_horse27.canvas.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.fire_horse27.canvas.util.ModTags;
+import net.fire_horse27.canvas.item.ModItems;
 import net.minecraft.registry.RegistryWrapper;
 
 import java.util.concurrent.CompletableFuture;
@@ -13,8 +15,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
-        /*getOrCreateTagBuilder(ModTags.Items.DEAD_TUBE_CORALS)
-                .add(Items.DEAD_TUBE_CORAL)
-                .add(Items.DEAD_TUBE_CORAL_FAN);*/
+        /*valueLookupBuilder(ModTags.Items.NAME)
+                .add(ModItems.NAME);*/
     }
 }
